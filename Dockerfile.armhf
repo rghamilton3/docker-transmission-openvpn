@@ -1,4 +1,4 @@
-FROM armv4/armhf-ubuntu:xenial
+FROM armv7/armhf-ubuntu:xenial
 MAINTAINER Robert Hamilton
 
 VOLUME /data
