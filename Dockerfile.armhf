@@ -1,5 +1,5 @@
-FROM resin/rpi-raspbian:jessie
-MAINTAINER Kristian Haugene
+FROM armv4/armhf-ubuntu:xenial
+MAINTAINER Robert Hamilton
 
 VOLUME /data
 VOLUME /config
