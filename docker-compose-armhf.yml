@@ -5,7 +5,7 @@ services:
   build:
      context: .
      dockerfile: Dockerfile.armhf
-  image: haugene/rpi-transmission-openvpn
+  image: rghamilton3/armhf-transmission-openvpn
   cap_add:
     - NET_ADMIN
   devices:
@@ -30,7 +30,7 @@ services:
   build:
      context: ./proxy
      dockerfile: Dockerfile.armhf
-  image: haugene/rpi-transmission-openvpn-proxy
+  image: rghamilton3/armhf-transmission-openvpn-proxy
   links:
     - transmission
   ports:
